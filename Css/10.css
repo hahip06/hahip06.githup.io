@@ -1,0 +1,209 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	color: pink;
+}
+h2 {
+	color: orangered;
+}
+
+
+
+h1 {
+	background-color: #277475;
+	color: black;
+	text-align: center;
+	padding: 80px;
+
+}
+
+nav {
+	background-color: black;
+	padding: 0px;
+	overflow: hidden;
+
+}
+nav a {
+	color: white;
+	padding: 25px;
+	text-decoration: none;
+	float: left;
+	display: block;
+
+}
+#photo {
+	margin: 15px;
+}
+#contact {
+	margin: 15px;
+}
+hr {
+	margin: 15px;
+}
+#education{
+	margin: 15px;
+}
+p {
+	margin: 10px;
+}
+ul {
+	margin: 20px;
+
+}
+ol {
+	margin: 20px;
+
+}
+#score{
+	margin: 10px;
+
+}
+#social {
+	margin: 15px;
+}
+table {
+	margin: 20px;
+
+}
+img{
+	margin: 20px;
+
+}
+
+nav a:hover {
+	background-color: white;
+	color: black;
+}
+#programmer {
+	color: hotpink;
+}
+/*#ng_ha a {
+	text-decoration: none;
+}*/
+.one {
+	float: left;
+}
+.two {
+	float: right;
+}
+
+#container{
+	display: flex;
+	flex-wrap: wrap;
+}
+#leftside{
+	flex: 40%;
+	background-color: #f1f1f1;
+
+}
+#rightside {
+	flex: 60%;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+
+
+}
+footer a {
+	color: white;
+}
+
+/*styling the table*/
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+#my_image {
+	width: 20%;
+}
+.menuone {
+	float: left;
+}
+.menutwo {
+	float: right;
+}
+#botulichsu {
+	padding: 15px 0px 0px 10px;
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+#left_side {
+	flex: 40%;
+	background-color: #f1f1f1;
+
+}
+#right_side {
+	flex: 60%;
+}
+#fashion_container {
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+#fashion_item {
+	flex: 33%;
+	text-align: center;
+}
+.one {
+	width: 90%;
+}
+#fashion_title {
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0px 5px 3px 10px;
+}
+#fashion_d {
+	padding: 3px 0px 0px 10px;
+}
+#style {
+	padding: 10px;
+}
+
+@media(max-width: 800px) {
+	#leftside {
+		flex: 100%;
+	}
+	#rightside {
+		flex: 100%;
+	}
+	#fashion_item {
+		flex: 40%;
+	}
+
+
+}
+
+
+
